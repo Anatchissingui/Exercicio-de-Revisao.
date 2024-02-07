@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Exercício</title>
+</head>
+<body>
+
+<h3 id="DarkModetext">Dark Mode is OFF</h3>
+<button onclick="darkMode()">Darkmode</button>
+<button onclick="lightMode()">LightMode</button>
+<script>
+function darkMode() {
+    var element = document.body;
+    var content = document.getElementById("DarkModetext");
+    element.className = "dark-mode";
+    content.innerText = "Dark Mode is ON";
+}
+function lightMode() {
+    var element = document.body;
+    var content = document.getElementById("DarkModetext");
+    element.className = "light-mode";
+    content.innerText = "Dark Mode is OFF";
+}
+</script>
+<img src="/img/EPF-logo.jpg" alt="EPF">
+    
+<h2>Exercício de Revisão: Conceitos Básicos de SQL, Java, C e C++ </h2>
+<h3> 1. SQL (Structured Query Language):</h3>
+<p><li>O que é SQL e qual é o seu propósito no contexto de bancos de dados?</li>
+    <br>
+    - SQL é uma linguagem de consulta estruturada usada para manipular e gerenciar dados em bancos de dados relacionais. Seu propósito é permitir a criação, consulta, atualização e exclusão de dados de forma eficiente.
+    <br>
+<br>
+    <li>Forneça um exemplo de uma consulta SQL simples:</li>
+    <br>
+    sql
+    <br>
+    -SELECT nome, idade FROM clientes WHERE cidade = 'Lisboa';
+</p>
+
+<h3>2. Banco de Dados Relacional:</h3>
+<p><li>Explique o conceito de um banco de dados relacional?</li>
+<br>
+Um banco de dados relacional armazena imformações em formato tabular,com linhas e colunas representando diferentes atributos de dados. 
+<br>
+<li>Cite pelo menos três tipos de dados que podem ser armazenados em um banco de dados relacional</li>
+<br>
+        1. INT (inteiro)
+        <br>
+        2. VARCHAR (cadeia de caracteres variável)
+        <br>
+        3. DATE (data)
+        <br>
+
+<h3>3. Java:</h3>
+<li>Descreva brevemente a linguagem de programação Java:</li>
+<br>
+Java é uma linguagem de programação orientada a objetos, independente de plataforma, projetada para ser simples, portátil e segura.
+<br>
+<li>Mencione pelo menos três características-chave de Java:</li>
+<br>
+        1. Portabilidade (Write Once, Run Anywhere - WORA)
+        <br>
+        2. Orientação a Objetos
+        <br>
+        3. Gerenciamento de Memória Automático (coleta de lixo)
+        <br>
+<h3>4. C e C++:</h3>   
+<li>Quais são as principais diferenças entre as linguagens de programação C e C++?</li>  
+<br>
+- C++ é uma extensão de C que introduz a programação orientada a objetos, incluindo classes e herança.
+<br>
+<br>
+<li>Dê exemplos de situações em que cada uma dessas linguagens seria mais apropriada:</li>
+<br>
+- C é frequentemente usado para programação de sistemas e desenvolvimento de hardware.
+<br>
+- C++ é escolhido para desenvolvimento de software orientado a objetos, como jogos e aplicativos gráficos.
+<br>
+
+<h3>5. Variáveis em C e C++:</h3>
+<br>
+<li>Exemplo de como você declarar uma variável em C</li>
+<br>
+        C
+        <br>
+        int idade;
+
+
+<li>Exemplo de como você declarar uma variável em C++</li>
+<br>
+        cpp
+        <br>
+        int idade;
+<br>
+
+<h3>6. Estruturas de Controle de Fluxo:</h3>
+<br>
+<li>Em Java,C e C++ usam-se as mesmas estruturas de controle de fluxo:</li>
+<br>
+        1. if-else
+        <br>
+        2. switch
+        <br>
+        3. loops (for, while)
+
+<h3>7. Manipulação de Strings:</h3>
+<br>
+Em Java, a classe String possui métodos para manipulação de strings, como concatenação, substring, etc.
+<br>
+Em C, as strings são tratadas como arrays de caracteres. Em C++, a biblioteca string fornece métodos para manipulação.
+<br>
+
+<h3>8. Operadores Relacionais e Lógicos:</h3>
+<li> Operadores relacionais em C++:</li>
+<br>
+        1. == (igual a)
+        <br>
+        2. != (diferente de)
+        <br>
+        3. > (maior que)
+        <br>
+
+<li>Em jAVA os operadores lógicos são utilizados da seguinte forma:</li>
+<br>
+Os operadores lógicos em Java incluem && (AND), || (OR), e ! (NOT).
+
+<h3>9. Alocamento de Memória:</h3>
+<br>
+<li>Como a alocação de memória é tratada em C e C++?</li>
+<br>
+Em C, a alocação dinâmica é feita com malloc() e free(). Em C++, utiliza-se new e delete.
+<br>
+
+<li>Algumas diferenças significativas entre os dois.</li>
+<br>
+C++ adiciona recursos de construtores/destrutores e elimina a necessidade de gerenciar explicitamente a memória (com exceções).
+
+<h3>10. Comandos SQL para CRUD:</h3>
+<br>
+<li>Comandos SQL básicos para realizar operações CRUD (Create, Read, Update, Delete) em um banco de dados:</li>
+<br>
+    - Create: INSERT INTO tabela (coluna1, coluna2) VALUES (valor1, valor2);
+    <br>
+    - Read: SELECT * FROM tabela WHERE condição;
+    <br>
+    - Update: UPDATE tabela SET coluna1 = novo_valor WHERE condição;
+    <br>
+    - Delete: DELETE FROM tabela WHERE condição;
+
+</p>
+    <body background="./img/background.jpeg"></body>
+</body>
+</html>
